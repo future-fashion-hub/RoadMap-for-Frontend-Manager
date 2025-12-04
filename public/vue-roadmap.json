@@ -1,0 +1,38 @@
+{
+  "name": "Дорожная карта Vue.js",
+  "description": "План изучения Vue.js для начинающих.",
+  "items": [
+    {
+      "id": "vue-1",
+      "name": "Основы Vue",
+      "description": "Изучение основ Vue, включая экземпляр Vue и синтаксис шаблонов.",
+      "externalLink": "https://v3.vuejs.org/guide/introduction.html",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "vue-2",
+      "name": "Компоненты",
+      "description": "Понимание компонентов Vue и их взаимодействия.",
+      "externalLink": "https://v3.vuejs.org/guide/component-basics.html",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "vue-3",
+      "name": "Reactivity",
+      "description": "Работа с реактивностью в Vue.",
+      "externalLink": "https://v3.vuejs.org/guide/reactivity-fundamentals.html",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "vue-4",
+      "name": "Маршрутизация",
+      "description": "Изучение Vue Router для навигации в SPA.",
+      "externalLink": "https://next.router.vuejs.org/",
+      "status": "not-started",
+      "notes": ""
+    }
+  ]
+}

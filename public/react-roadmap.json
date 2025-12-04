@@ -1,0 +1,38 @@
+{
+  "name": "Дорожная карта React",
+  "description": "План изучения React для начинающих.",
+  "items": [
+    {
+      "id": "react-1",
+      "name": "Основы JSX",
+      "description": "Изучение синтаксиса JSX и его использования в React.",
+      "externalLink": "https://reactjs.org/docs/introducing-jsx.html",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "react-2",
+      "name": "Компоненты и пропсы",
+      "description": "Понимание компонентов, пропсов и их взаимодействия.",
+      "externalLink": "https://reactjs.org/docs/components-and-props.html",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "react-3",
+      "name": "Состояние и жизненный цикл",
+      "description": "Работа с состоянием и жизненным циклом компонентов.",
+      "externalLink": "https://reactjs.org/docs/state-and-lifecycle.html",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "react-4",
+      "name": "Обработка событий",
+      "description": "Изучение обработки событий в React.",
+      "externalLink": "https://reactjs.org/docs/handling-events.html",
+      "status": "not-started",
+      "notes": ""
+    }
+  ]
+}

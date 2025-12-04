@@ -1,0 +1,38 @@
+{
+  "name": "Дорожная карта JavaScript",
+  "description": "План изучения основ JavaScript.",
+  "items": [
+    {
+      "id": "js-1",
+      "name": "Переменные и типы данных",
+      "description": "Изучение переменных, типов данных и операторов.",
+      "externalLink": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Grammar_and_types",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "js-2",
+      "name": "Функции и области видимости",
+      "description": "Понимание функций, замыканий и областей видимости.",
+      "externalLink": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Functions",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "js-3",
+      "name": "Массивы и объекты",
+      "description": "Работа с массивами и объектами в JavaScript.",
+      "externalLink": "https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array",
+      "status": "not-started",
+      "notes": ""
+    },
+    {
+      "id": "js-4",
+      "name": "DOM-манипуляции",
+      "description": "Изучение взаимодействия с Document Object Model.",
+      "externalLink": "https://developer.mozilla.org/ru/docs/Web/API/Document_Object_Model",
+      "status": "not-started",
+      "notes": ""
+    }
+  ]
+}

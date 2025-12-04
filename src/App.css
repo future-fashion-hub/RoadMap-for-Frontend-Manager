@@ -1,0 +1,123 @@
+:root {
+  --primary-color: #4a90e2;
+  --background-color: #f4f7f9;
+  --text-color: #333;
+  --card-background: #ffffff;
+  --border-color: #e0e0e0;
+  --shadow-color: rgba(0, 0, 0, 0.05);
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.App-header {
+  background-color: var(--card-background);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.App-header h1 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.load-controls, .example-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.controls p {
+  margin: 0;
+  font-weight: 500;
+  color: #555;
+}
+
+button, input[type="file"] {
+  font-family: var(--font-family);
+  font-size: 1rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+.roadmap-info {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.roadmap-info h2 {
+  margin: 0 0 1rem;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.progress-container progress {
+  width: 200px;
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-container progress::-webkit-progress-bar {
+  background-color: #e0e0e0;
+}
+
+.progress-container progress::-webkit-progress-value {
+  background-color: var(--primary-color);
+}
+
+.error-message {
+  color: #d9534f;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.welcome-message {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--card-background);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+}
