@@ -8,6 +8,9 @@
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .roadmap-item-card:before {
@@ -40,13 +43,20 @@
 .roadmap-item-card h3 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
-
 .roadmap-item-card p {
   font-size: 0.95em;
-  color: #666;
+  color: var(--muted);
   margin-bottom: 0.5rem;
+}
+
+/* Make description expand so cards have equal height */
+.roadmap-item-card .item-desc {
+  flex: 1 1 auto;
 }
 
 .roadmap-item-card-link {
@@ -57,6 +67,39 @@
 .due-date {
   font-size: 0.85em;
   font-weight: 500;
-  color: #e67700; /* Orange for visibility */
-  margin-top: 1rem;
+  color: var(--muted);
+  margin-top: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: rgba(37,99,235,0.06);
+  color: var(--primary-color);
+}
+
+.card-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: auto;
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.item-desc {
+  margin-bottom: 0.6rem;
 }
