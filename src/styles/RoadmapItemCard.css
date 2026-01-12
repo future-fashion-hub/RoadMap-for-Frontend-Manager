@@ -1,0 +1,102 @@
+.roadmap-item-card {
+  background-color: var(--card-background);
+  border: 1px solid transparent;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.roadmap-item-card:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: var(--border-color);
+}
+
+.roadmap-item-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.card-status-not-started:before {
+  background-color: #ced4da; /* Grey */
+}
+
+.card-status-in-progress:before {
+  background-color: #ffc107; /* Amber */
+}
+
+.card-status-completed:before {
+  background-color: #28a745; /* Green */
+}
+
+.roadmap-item-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.roadmap-item-card p {
+  font-size: 0.95em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.roadmap-item-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.due-date {
+  font-size: 0.85em;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: rgba(37,99,235,0.06);
+  color: var(--primary-color);
+}
+
+.card-meta {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: auto;
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.item-desc {
+  margin-bottom: 0.6rem;
+  flex: 1 1 auto;
+}

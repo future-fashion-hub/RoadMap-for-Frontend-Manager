@@ -4,7 +4,7 @@ import type { Roadmap, RoadmapItem} from './utils/roadmapService';
 import { loadRoadmap, exportRoadmap } from './utils/roadmapService';
 import RoadmapList from './components/RoadmapList';
 import RoadmapDetailPage from './components/RoadmapDetailPage';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   const [roadmaps, setRoadmaps] = useState<Record<string, Roadmap>>({});

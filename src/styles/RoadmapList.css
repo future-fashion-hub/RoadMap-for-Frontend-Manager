@@ -1,0 +1,13 @@
+.roadmap-list-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+  padding: 16px;
+  align-items: stretch;
+}
+
+.roadmap-list-grid .roadmap-item-card-link {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}

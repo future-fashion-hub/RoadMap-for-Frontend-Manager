@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import type { RoadmapItem } from '../utils/roadmapService';
-import './RoadmapItemCard.css';
+import '../styles/RoadmapItemCard.css';
 import { CheckCircle, Play, Circle, Clock, ExternalLink } from 'lucide-react';
 
 interface RoadmapItemCardProps {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import type { Roadmap, RoadmapItem } from '../utils/roadmapService';
-import './RoadmapDetailPage.css';
+import '../styles/RoadmapDetailPage.css';
 
 interface RoadmapDetailPageProps {
   roadmap: Roadmap | null;

@@ -1,7 +1,7 @@
 import React from 'react';
 import type { RoadmapItem } from '../utils/roadmapService';
 import RoadmapItemCard from './RoadmapItemCard';
-import './RoadmapList.css';
+import '../styles/RoadmapList.css';
 
 interface RoadmapListProps {
   items: RoadmapItem[];
